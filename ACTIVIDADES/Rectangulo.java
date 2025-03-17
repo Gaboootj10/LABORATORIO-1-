@@ -9,9 +9,8 @@ public class Rectangulo {
 		    double maxX = Math.max(c1.getX(), c2.getX());
 		    double minY = Math.min(c1.getY(), c2.getY());
 		    double maxY = Math.max(c1.getY(), c2.getY());
-
-		    this.esquina1 = new Coordenada(minX, minY); // Esquina inferior izquierda
-		    this.esquina2 = new Coordenada(maxX, maxY); // Esquina superior derecha
+		    this.esquina1 = new Coordenada(minX, minY); 
+		    this.esquina2 = new Coordenada(maxX, maxY); 
 	}
 
 	public void setEsquina1(Coordenada coo) {
